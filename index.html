@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganpati Bappa Morya | Ganesh Utsav Celebration</title>
+    <meta name="description" content="Celebrate Ganesh Utsav with devotion. Learn about Lord Ganesha, festival traditions, prayers, and join the spiritual celebration of Ganpati Bappa Morya.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Floating Particles Background -->
+    <div class="particles-container" id="particles"></div>
+    
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <span class="om-symbol">🕉️</span>
+                <span class="brand-text">Ganpati Bappa</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#celebrations" class="nav-link">Celebrations</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#prayers" class="nav-link">Prayers</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="ganesh-illustration">
+                <div class="ganesh-face">
+                    <div class="ganesh-crown"></div>
+                    <div class="ganesh-eyes">
+                        <div class="eye left-eye"></div>
+                        <div class="eye right-eye"></div>
+                    </div>
+                    <div class="ganesh-trunk"></div>
+                    <div class="ganesh-tusks">
+                        <div class="tusk left-tusk"></div>
+                        <div class="tusk right-tusk"></div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">गणपति बाप्पा</span>
+                <span class="title-line">मोरया</span>
+            </h1>
+            <p class="hero-subtitle">मंगलमूर्ति मोरया</p>
+            <div class="mantra-container">
+                <p class="mantra">ॐ गं गणपतये नमः</p>
+            </div>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('about')">Learn More</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('prayers')">Prayers</button>
+            </div>
+        </div>
+        <div class="floating-diyas">
+            <div class="diya diya-1"></div>
+            <div class="diya diya-2"></div>
+            <div class="diya diya-3"></div>
+            <div class="diya diya-4"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Lord Ganesha</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">🐘</div>
+                    <h3>Vighna Harta</h3>
+                    <p>Lord Ganesha is revered as the remover of obstacles and the patron of arts and sciences. He is invoked at the beginning of any new venture or important work.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🙏</div>
+                    <h3>Pratham Pujya</h3>
+                    <p>Ganesha is worshipped first before any other deity. His blessings are sought for wisdom, prosperity, and good fortune in all endeavors.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">📚</div>
+                    <h3>Buddhi Pradayaka</h3>
+                    <p>Known as the giver of wisdom and intellect, students and scholars especially seek his blessings for knowledge and understanding.</p>
+                </div>
+            </div>
+            <div class="about-description">
+                <h3>Significance of Ganesh Utsav</h3>
+                <p>Ganesh Utsav is a 11-day Hindu festival celebrating the birth of Lord Ganesha. The festival begins on Ganesh Chaturthi and ends on Anant Chaturdashi. During this period, elaborate pandals are set up, prayers are offered, and the community comes together in celebration. The festival culminates with the immersion of Ganesha idols in water bodies, symbolizing the cycle of creation and dissolution.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Celebrations Section -->
+    <section id="celebrations" class="celebrations">
+        <div class="container">
+            <h2 class="section-title">11 Days of Celebration</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-day="1">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h4>Day 1 - Ganesh Chaturthi</h4>
+                        <p>Installation of Ganesha idol with Pranapratishtha ceremony</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-day="2">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h4>Day 2-10 - Daily Worship</h4>
+                        <p>Morning and evening aarti, offerings of modak, and community prayers</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-day="11">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h4>Day 11 - Anant Chaturdashi</h4>
+                        <p>Grand procession and immersion ceremony (Visarjan)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="traditions-grid">
+                <div class="tradition-card">
+                    <h4>🥥 Offerings</h4>
+                    <p>Modak, coconut, jaggery, and flowers are offered to Lord Ganesha</p>
+                </div>
+                <div class="tradition-card">
+                    <h4>🎵 Aarti</h4>
+                    <p>Daily morning and evening prayers with devotional songs</p>
+                </div>
+                <div class="tradition-card">
+                    <h4>🎭 Cultural Programs</h4>
+                    <p>Dance, music, and drama performances during the festival</p>
+                </div>
+                <div class="tradition-card">
+                    <h4>🌊 Visarjan</h4>
+                    <p>Immersion ceremony marking the end of the festival</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Festival Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="css-art pandal">
+                        <div class="pandal-structure">
+                            <div class="pandal-roof"></div>
+                            <div class="pandal-pillars">
+                                <div class="pillar"></div>
+                                <div class="pillar"></div>
+                            </div>
+                            <div class="pandal-ganesh"></div>
+                        </div>
+                    </div>
+                    <h4>Pandal Decorations</h4>
+                </div>
+                <div class="gallery-item">
+                    <div class="css-art modak">
+                        <div class="modak-shape">
+                            <div class="modak-top"></div>
+                            <div class="modak-bottom"></div>
+                        </div>
+                    </div>
+                    <h4>Sacred Modak</h4>
+                </div>
+                <div class="gallery-item">
+                    <div class="css-art lotus">
+                        <div class="lotus-petals">
+                            <div class="petal"></div>
+                            <div class="petal"></div>
+                            <div class="petal"></div>
+                            <div class="petal"></div>
+                            <div class="petal"></div>
+                        </div>
+                        <div class="lotus-center"></div>
+                    </div>
+                    <h4>Lotus Offerings</h4>
+                </div>
+                <div class="gallery-item">
+                    <div class="css-art rangoli">
+                        <div class="rangoli-pattern">
+                            <div class="rangoli-center"></div>
+                            <div class="rangoli-petals">
+                                <div class="r-petal"></div>
+                                <div class="r-petal"></div>
+                                <div class="r-petal"></div>
+                                <div class="r-petal"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <h4>Rangoli Art</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prayers Section -->
+    <section id="prayers" class="prayers">
+        <div class="container">
+            <h2 class="section-title">Prayers & Mantras</h2>
+            <div class="prayers-grid">
+                <div class="prayer-card">
+                    <h3>Ganesh Mantra</h3>
+                    <div class="mantra-text">
+                        <p>ॐ गं गणपतये नमः</p>
+                        <p class="translation">Om Gam Ganapataye Namaha</p>
+                    </div>
+                </div>
+                <div class="prayer-card">
+                    <h3>Vakratunda Mahakaya</h3>
+                    <div class="mantra-text">
+                        <p>वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ</p>
+                        <p>निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा</p>
+                        <p class="translation">Remove all obstacles from my path, O Lord</p>
+                    </div>
+                </div>
+                <div class="prayer-card">
+                    <h3>Ganesh Aarti</h3>
+                    <div class="aarti-text">
+                        <p>सुखकर्ता दुःखहर्ता वार्ता विघ्नाची</p>
+                        <p>नुरवी पुरवी प्रेम कृपा जयाची</p>
+                        <p class="translation">Giver of happiness, remover of sorrows</p>
+                    </div>
+                    <button class="play-aarti" onclick="toggleAarti()">🎵 Play Aarti</button>
+                    <audio id="ganeshAarti" src="C:\Users\Harsh\Downloads\Sukhakarta Dukhaharta-128kbps.mp3"></audio>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>🕉️ Ganpati Bappa Morya</h4>
+                    <p>May Lord Ganesha bless you with wisdom, prosperity, and happiness.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Festival Dates 2025</h4>
+                    <p>Ganesh Chaturthi: August 27</p>
+                    <p>Anant Chaturdashi: September 6</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Blessings</h4>
+                    <p>गणेशाय नमः</p>
+                    <p>Ganeshaaya Namaha</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ganpati Celebration. Made with devotion 🙏</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
